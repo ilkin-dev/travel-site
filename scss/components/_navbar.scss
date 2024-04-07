@@ -7,17 +7,17 @@
 
   height: 5vh;
 
-  margin: 1em 5em;
-
   &__header {
     color: $primary-text-color;
+    font-size: 18px;
   }
 
   &__menu {
-    height: 100%;
+    &-container {
+      width: 20vw;
+    }
 
     &-list {
-      width: 25vw;
       display: flex;
       align-items: baseline;
       justify-content: space-between;
@@ -25,6 +25,8 @@
 
     &-item {
       padding: 0.5em 0;
+
+      font-size: 15px;
 
       border-bottom: 2px solid rgba($color: $accent-color, $alpha: 0);
       transition: border-bottom 0.2s ease;

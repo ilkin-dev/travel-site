@@ -1,0 +1,21 @@
+@import "../themes/theme-default";
+
+.primary-button {
+  background-color: $button-color;
+
+  width: auto;
+  height: auto;
+
+  padding: 0.5em 2em;
+
+  color: white;
+  font-size: 13px;
+
+  border-radius: 20px;
+
+  transition: background-color 0.25s ease;
+
+  &:hover {
+    background-color: $button-color--hover;
+  }
+}

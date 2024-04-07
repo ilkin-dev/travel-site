@@ -12,10 +12,18 @@
         <h2 class="nav__header"><a href="#">Travel Site</a></h2>
         <div class="nav__menu-container">
           <ul class="nav__menu-list">
-            <li class="nav__menu-item"><p>Home</p></li>
-            <li class="nav__menu-item"><p>Hawaii</p></li>
-            <li class="nav__menu-item"><p>Iceland</p></li>
-            <li class="nav__menu-item"><p>Greece</p></li>
+            <li class="nav__menu-item">
+              <a href="#"><p>Home</p></a>
+            </li>
+            <li class="nav__menu-item">
+              <a href="../pages/hawaii.html"><p>Hawaii</p></a>
+            </li>
+            <li class="nav__menu-item">
+              <a href="../pages/iceland.html"><p>Iceland</p></a>
+            </li>
+            <li class="nav__menu-item">
+              <a href="../pages/greece.html"><p>Greece</p></a>
+            </li>
           </ul>
         </div>
       </nav>
@@ -41,7 +49,7 @@
         </div>
       </section>
       <section class="recommendations section">
-        <div class="recommendations__header"><h2>Recommendations</h2></div>
+        <div class="recommendations__header"><h3>Recommendations</h3></div>
         <div class="recommendations__cardsContainer">
           <a
             class="recommendations__card card"
@@ -52,7 +60,7 @@
             "
             href="/pages/hawaii.html"
             ><div>
-              <p class="recommendations__card-text card-text">Hawaii</p>
+              <h3 class="recommendations__card-text card-text">Hawaii</h3>
             </div></a
           >
           <a
@@ -64,7 +72,7 @@
             "
             href="/pages/iceland.html"
             ><div>
-              <p class="recommendations__card-text card-text">Iceland</p>
+              <h3 class="recommendations__card-text card-text">Iceland</h3>
             </div></a
           >
           <a
@@ -76,39 +84,57 @@
             "
             href="/pages/greece.html"
             ><div>
-              <p class="recommendations__card-text card-text">Greece</p>
+              <h3 class="recommendations__card-text card-text">Greece</h3>
             </div></a
           >
         </div>
       </section>
     </main>
-    <footer>
-      <div>
-        <h2>Contacts</h2>
-        <p>EMAIL</p>
-        <p>info@travelsite.com</p>
-      </div>
-      <div>
-        <h2>Hours</h2>
-        <div>
-          <p>MONDAY - FRIDAY</p>
-          <p>9:00 AM - 5:00 PM</p>
+    <footer class="footer section">
+      <div class="footer__section">
+        <div class="footer__section-contactsTop">
+          <h3 class="footer__section-header">Contacts</h3>
         </div>
-        <div>
-          <p>SATURDAY</p>
-          <p>10:00 AM - 4:00 PM</p>
-        </div>
-        <div>
-          <p>SUNDAY</p>
-          <p>Closed</p>
+        <div class="footer__section-contactsBottom">
+          <p class="footer__section-descriptionInfo">EMAIL</p>
+          <p class="footer__section-description">info@travelsite.com</p>
         </div>
       </div>
-      <div>
-        <h2>Social</h2>
-        <ul>
-          <li><img src="assets\images\icon-facebook.png" /></li>
-          <li><img src="assets\images\icon-instagram.png" /></li>
-          <li><img src="assets\images\icon-twitter.png" /></li>
+      <div class="footer__section">
+        <h3 class="footer__section-header">Hours</h3>
+        <ul class="footer__section-hoursList">
+          <li class="footer__section-hoursList-item">
+            <p class="footer__section-descriptionInfo">MONDAY - FRIDAY</p>
+            <p class="footer__section-description">9:00 AM - 5:00 PM</p>
+          </li>
+          <li class="footer__section-hoursList-item">
+            <p class="footer__section-descriptionInfo">SATURDAY</p>
+            <p class="footer__section-description">10:00 AM - 4:00 PM</p>
+          </li>
+          <li class="footer__section-hoursList-item">
+            <p class="footer__section-descriptionInfo">SUNDAY</p>
+            <p class="footer__section-description">Closed</p>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__section">
+        <h3 class="footer__section-header">Social</h3>
+        <ul class="footer__section-socialList">
+          <li class="footer__section-socialList-item">
+            <a href="https://instagram.com"
+              ><img src="assets\images\icon-instagram.png"
+            /></a>
+          </li>
+          <li class="footer__section-socialList-item">
+            <a href="https://facebook.com"
+              ><img src="assets\images\icon-facebook.png"
+            /></a>
+          </li>
+          <li class="footer__section-socialList-item">
+            <a href="https://twitter.com"
+              ><img src="assets\images\icon-twitter.png"
+            /></a>
+          </li>
         </ul>
       </div>
     </footer>

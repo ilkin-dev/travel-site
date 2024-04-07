@@ -1,8 +1,9 @@
 @import "../themes/theme-default";
 
 .footer {
-  bottom: 0;
+  margin-top: auto;
   height: 20vh;
+  width: 100%;
   padding: 0 12em 0 12em;
   display: flex;
   flex-direction: row;

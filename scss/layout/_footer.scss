@@ -1,12 +1,13 @@
 @import "../themes/theme-default";
 
 .footer {
-  width: auto;
-  padding: 0 12em 3em 12em;
+  bottom: 0;
+  height: 20vh;
+  padding: 0 12em 0 12em;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
 
   &__section {
     display: flex;

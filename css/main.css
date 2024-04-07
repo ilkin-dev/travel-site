@@ -168,6 +168,9 @@ h3 {
 }
 
 .nav {
+  background-color: #ffffff;
+  position: fixed;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -202,13 +205,19 @@ h3 {
   padding: 8vh 8vw;
 }
 
+.content {
+  padding-top: 12vh;
+  padding-bottom: 20vh;
+}
+
 .footer {
-  width: auto;
-  padding: 0 12em 3em 12em;
+  bottom: 0;
+  height: 20vh;
+  padding: 0 12em 0 12em;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
 }
 .footer__section {
   display: flex;

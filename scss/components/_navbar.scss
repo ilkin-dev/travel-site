@@ -2,6 +2,9 @@
 @import "../utilities/variables";
 
 .nav {
+  background-color: $navbar-bg-color;
+  position: fixed;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;

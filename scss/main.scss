@@ -1,14 +1,21 @@
+// BASE
 @import "base/reset";
 @import "base/typography";
 
+// COMPONENTS
 @import "components/buttons";
+@import "components/cards";
 @import "components/navbar";
 
+// LAYOUT
 @import "layout/footer";
 
+// PAGES
 @import "pages/destinations";
 
+// THEMES
 @import "themes/theme-default";
 
+// UTILITIES
 @import "utilities/mixins";
 @import "utilities/variables";

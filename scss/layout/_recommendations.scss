@@ -1,0 +1,24 @@
+@import "../themes/theme-default";
+
+.recommendations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__header {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    color: $primary-text-color;
+  }
+
+  &__cardsContainer {
+    margin-top: 2em;
+    display: flex;
+    width: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

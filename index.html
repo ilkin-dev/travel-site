@@ -8,7 +8,7 @@
   </head>
   <body>
     <header>
-      <nav class="nav section">
+      <nav class="nav">
         <h2 class="nav__header"><a href="#">Travel Site</a></h2>
         <div class="nav__menu-container">
           <ul class="nav__menu-list">
@@ -40,11 +40,46 @@
           </div>
         </div>
       </section>
-      <section>
-        <h2>Recommenations</h2>
-        <div><p>Hawaii</p></div>
-        <div><p>Iceland</p></div>
-        <div><p>Greece</p></div>
+      <section class="recommendations section">
+        <div class="recommendations__header"><h2>Recommendations</h2></div>
+        <div class="recommendations__cardsContainer">
+          <a
+            class="recommendations__card card"
+            style="
+              background: url('assets\\images\\hawaii.jpg');
+              background-size: cover;
+              background-repeat: no-repeat;
+            "
+            href="/pages/hawaii.html"
+            ><div>
+              <p class="recommendations__card-text card-text">Hawaii</p>
+            </div></a
+          >
+          <a
+            class="recommendations__card card"
+            style="
+              background: url('assets\\images\\iceland.jpg');
+              background-size: cover;
+              background-repeat: no-repeat;
+            "
+            href="/pages/iceland.html"
+            ><div>
+              <p class="recommendations__card-text card-text">Iceland</p>
+            </div></a
+          >
+          <a
+            class="recommendations__card card"
+            style="
+              background: url('assets\\images\\greece.jpg');
+              background-size: cover;
+              background-repeat: no-repeat;
+            "
+            href="/pages/greece.html"
+            ><div>
+              <p class="recommendations__card-text card-text">Greece</p>
+            </div></a
+          >
+        </div>
       </section>
     </main>
     <footer>

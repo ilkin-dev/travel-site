@@ -152,9 +152,6 @@ h3 {
   height: 25em;
   width: 17em;
   margin: 0 1.3em;
-  display: flex;
-  justify-content: end;
-  align-items: flex-end;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
@@ -166,9 +163,6 @@ h3 {
   font-size: 25px;
   font-weight: bold;
 }
-.card:hover {
-  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.5);
-}
 
 .nav {
   background-color: #ffffff;
@@ -177,8 +171,8 @@ h3 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 3em 8vw;
-  height: 5vh;
+  padding: 2px 8vw;
+  height: 60px;
 }
 .nav__header {
   color: #335576;
@@ -209,8 +203,8 @@ h3 {
 }
 
 .content {
-  padding-top: 12vh;
-  padding-bottom: 20vh;
+  padding-top: 64px;
+  background-color: #fefaf5;
 }
 
 .footer {
@@ -328,4 +322,62 @@ h3 {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+.recommendations__card {
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+}
+.recommendations__card:hover {
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.5);
+}
+
+.destinationsContent__wrapper {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 90px;
+}
+.destinationsContent__title {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  padding-left: 8vw;
+  color: white;
+  font-size: 60px;
+}
+.destinationsContent__cardList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.destinationsContent__cardList-item {
+  background-color: #fefaf5;
+  height: 22em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 20px;
+}
+.destinationsContent__cardList-item-header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom: 2px solid black;
+}
+.destinationsContent__cardList-item-dayList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.destinationsContent__cardList-item-dayList-item {
+  font-size: 18px;
+  padding-top: 45px;
 }/*# sourceMappingURL=main.css.map */

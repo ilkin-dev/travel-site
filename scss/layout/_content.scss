@@ -1,4 +1,6 @@
+@import "../themes/theme-default";
+
 .content {
-  padding-top: 12vh;
-  padding-bottom: 20vh;
+  padding-top: 64px;
+  background-color: $background-color;
 }

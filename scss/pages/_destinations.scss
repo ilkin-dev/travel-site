@@ -1,0 +1,69 @@
+@import "../themes/theme-default";
+@import "../utilities/variables";
+
+.destinationsContent {
+  &__wrapper {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-top: 50px;
+    padding-bottom: 90px;
+  }
+
+  &__title {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    padding-left: $section-margin-horizontal;
+
+    color: white;
+    font-size: $destionationPage-title-fontSize;
+  }
+
+  &__cardList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    &-item {
+      background-color: $background-color;
+
+      height: 22em;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      padding: 10px 20px;
+
+      &-header {
+        width: 100%;
+
+        display: flex;
+        justify-content: center;
+
+        font-size: 18px;
+        font-weight: bold;
+
+        border-bottom: 2px solid black;
+      }
+
+      &-dayList {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+        &-item {
+          font-size: 18px;
+
+          padding-top: 45px;
+        }
+      }
+    }
+  }
+}
